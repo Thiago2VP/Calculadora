@@ -84,7 +84,7 @@ def Apresentar(base):
 #criar interface
 calculadora=Tk()
 calculadora.title("Calculadora")
-calculadora.iconbitmap("calc.ico")
+# calculadora.iconbitmap("calc.ico")
 calculadora.geometry("%dx%d+%d+%d"%(314,465,90,50))
 calculadora['bg']='#4169E1'
 operac=StringVar()
